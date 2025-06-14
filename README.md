@@ -20,16 +20,11 @@ A part of [Interception.Module](https://github.com/interception-plugins/Intercep
 </config>
 ```
 
-- webhook_url
-A link to your webhook (text channel settings -> Intergrations -> Create Webhook -> Copy Webhook URL)
+## Translations
 
-- webhook_settings  
-Webhook settings  
-	- username  
-	Custom username of webhook  
-	Remove this parameter if you want to keep default username  
-	- avatar_url  
-	Custom avatar of webhook  
-	Remove this parameter if you want to keep default avatar  
-	- flags  
-	Message flags
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<Translations xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Translation Id="on_spy" Value="Screenshot for player &quot;{0}&quot; [{1}]" />
+</Translations>
+```
