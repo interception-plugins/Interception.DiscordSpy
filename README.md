@@ -8,13 +8,14 @@ Part of [Interception.Module](https://github.com/interception-plugins/Intercepti
 
 - webhook_url
 A link to your webhook (text channel settings -> Intergrations -> Create Webhook -> Copy Webhook URL)
-- webhook_settings
-Webhook settings
-	- username
-	Custom username of webhook
-	Remove this parameter if you want to keep default username
-	- avatar_url
-	Custom avatar of webhook
-	Remove this parameter if you want to keep default avatar
-	- flags
+
+- webhook_settings  
+Webhook settings  
+	- username  
+	Custom username of webhook  
+	Remove this parameter if you want to keep default username  
+	- avatar_url  
+	Custom avatar of webhook  
+	Remove this parameter if you want to keep default avatar  
+	- flags  
 	Message flags
