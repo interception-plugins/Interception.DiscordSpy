@@ -41,7 +41,7 @@ namespace interception.plugins.discordspy {
                 username = "Interpception's Unturned Spy Bot",
                 avatar_url = "https://avatars.akamai.steamstatic.com/08c9944b3176faed9e762311495d14e2860a538a_full.jpg",
                 flags = new List<e_webhook_flag>() { 
-                    e_webhook_flag.silent
+                    e_webhook_flag.suppress_notifications
                 }
             };
         }
