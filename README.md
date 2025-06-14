@@ -13,7 +13,7 @@ A part of [Interception.Module](https://github.com/interception-plugins/Intercep
   <webhook_settings username="Interpception's Unturned Spy Bot" avatar_url="https://sun9-32.userapi.com/impg/rSFId7czTetdDX6BKpqMMZbb6Rt1yNZsKKHbPg/L5jmIUatvhg.jpg?size=736x736&amp;quality=95&amp;sign=a245352bd74d713be44df3d66ff985f5&amp;type=album">
     <embeds />
     <flags>
-      <webhook_flag>silent</webhook_flag>
+      <webhook_flag>suppress_notifications</webhook_flag>
     </flags>
     <files />
   </webhook_settings>
