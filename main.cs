@@ -19,7 +19,7 @@ namespace interception.plugins.discordspy {
             var wh = (webhook)main.cfg.webhook_settings;
             wh.content = main.instance.Translate("on_spy", base.Player.CharacterName, base.Player.CSteamID.m_SteamID);
             wh.add_file(data, $"spy_{steamID.m_SteamID}.png");
-            webhook_manager.send_webhook_async(main.cfg.webhook_url, wh);
+            webhook_manager.send_webhook_async_unsafe(main.cfg.webhook_url, wh);
         }
 
         protected override void Load() {
@@ -38,7 +38,7 @@ namespace interception.plugins.discordspy {
         public void LoadDefaults() {
             webhook_url = "0_o";
             webhook_settings = new s_webhook() { 
-                username = "Interpception's Unturned Spy Bot",
+                username = "Interception's Unturned Spy Bot",
                 avatar_url = "https://avatars.akamai.steamstatic.com/08c9944b3176faed9e762311495d14e2860a538a_full.jpg",
                 flags = new List<e_webhook_flag>() { 
                     e_webhook_flag.suppress_notifications
